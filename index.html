@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="New Estillos.css">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="saludo">
+        <h1>Hi! I'm <div id="miNombre"><span>Julián Metke</span></div></h1>
+        <article class="barra">
+            <nav class="menu">
+                <ul class="lista">
+                    <li class="topic"><a href="#">Inicio</a></li>
+                    <li class="topic"><a href="#">Studies</a></li>
+                    <li class="topic"><a href="#">Projects</a></li>
+                    <li class="topic"><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+        </article>
+    </header>
+    <article class="presentacion">
+        
+        <img id="yo" src="Imágenes/yo.jpg" alt="Foto de perfil" width="31%" >           
+        
+        <section class="parrafo">
+            <p>
+                Nice to meet you! I'm a Fullstack Developer. Here, you will find several examples of my work 
+                I like to work as a freelance or in an agency. Do you want me to develop for you? 
+            </p>
+            <p>
+                Sure! I can code for fronted with languages like HTML, CSS and Javascript and backend with languages like ... 
+            </p>
+        </section>        
+    </article>
+    <hr>
+    <aside class="lateral">
+        <nav class="iconos">
+            <button>
+                <span class="material-symbols-outlined" alt="Inicio">home</span>
+            </button>
+            <button>
+                <span class="material-symbols-outlined" alt="Studies">school</span>
+            </button>
+            <button>
+                <span class="material-symbols-outlined">integration_instructions</span>
+            </button>
+            <button>
+                <span class="material-symbols-outlined">alternate_email</span>
+            </button>              
+        </nav>
+    </aside>
+    <article class="estudios">
+        <header class="enunciado">
+            <h2><span>College</span></h2>
+            <p>Here you can find some of my studies and their certificates...</p>            
+        </header>
+        <section class="imagenesEstudios">
+            <figure class="imagenes1">
+                <a href="#"><img src="Imágenes/4.png" alt="Logo UNAD" width="200px"></a>
+                <figcaption class="descripcionesEstudios"><h4>Multimedia Engenieering</h4></figcaption>
+                <p class="descripcionesEstudios">In Course</p>
+            </figure>
+            <figure class="imagenes2">
+                <a href="#"><img id="talentoTech" src="Imágenes/6.png" alt="Logo Talentotech" width="200px"></a>
+                <figcaption class="descripcionesEstudios2"><h4>Fullstack Web Developer</h4></figcaption>
+                <p class="descripcionesEstudios">In Course</p>
+            </figure>
+            <figure class="imagenes3">
+                <a href="#"><img id="google" src="Imágenes/7.png" alt="Logo Google" width="200px"></a>
+                <figcaption class="descripcionesEstudios3 "><h4>UX Design</h4></figcaption>
+                <p class="descripcionesEstudios">Pending</p>
+            </figure>
+        </section>
+    </article>
+    <hr>
+    <article class="trabajos">
+        <header class="enunciado">
+            <h2><span>Works</span></h2>
+            <p>These are a small example of my work of illustration</p>
+        </header>
+        <section class="imagenesAnteriores">
+            <figure>
+                <img class="estudiosOtros" src="Imágenes/1.jpg" alt="Estudio 1" width="20%">
+                <figcaption class="explicacion1">Every kid likes to imagine many fantasy stories, I considered muyself one of them, and this is an example of my imagination</figcaption>            
+            </figure>
+            <figure id="TalentoTech">
+                <img class="estudiosOtros" src="Imágenes/2.jpg" alt="Estudio 2" width="15%">
+                <figcaption class="explicacion2">I enjoy working with ink. This is one of favorite works I have. It's based on a heart but with patterns that try to recreate an optical illusion</figcaption>
+            </figure>
+            <figure id="Google">
+                <img class="estudiosOtros" src="Imágenes/3.jpg" alt="Estudio 3" width="17%">
+                <figcaption class="explicacion3">I think if we humans are able to paint a flower in piece of paper is because you really enjoy nature, and this is one of my favorite moments</figcaption>
+            </figure>
+        </section>
+    </article>
+    <hr>
+    <article>
+        <header>
+            <h2><span>Contact Me</span></h2>
+        </header>
+        <section>
+            <nav>
+                <form class="formulario">
+                    <label for="Name">Nombre:</label>
+                    <input type="text" id="Name" name="Nombre de Usuario" required/>
+                    <label for="Correo">Correo Electronico</label>
+                    <input type="email" id="Correo" name="Correo Electronico" required/>
+                    <label for="Telefono">Telefono</label>
+                    <input type="number" id="Telefono" name="Telefono" requiered/>
+                    <label for="msg">Comentarios</label>
+                    <textarea id="Comentarios" name="Comentarios" requiered/>
+                </form>
+            </nav>
+        </section>
+    </article>
+    <hr>
+    <section class="pie">
+        <header>
+            <h3>Social Media</h3>
+        </header>
+        <a href="https://www.instagram.com/jason_argon_/">
+            <img src="Imágenes/Instagram.png" alt="Logo Instagram" width="50">
+        </a>
+        <p>
+            <h4>
+                <a href="https://www.instagram.com/jason_argon_/">Instagram</a>
+            </h4>    
+        </p>
+    </section>
+</body>
+</html>

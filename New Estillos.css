@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(10, 11, 12);
+    font-family: Noto Sans Display;
+}
+
+H1{
+    background-color: rgb(3, 135, 159);
+    font-family: Noto Sans Display;
+    font-weight: bolder;
+    color: rgb(140, 255, 218);   
+    display: grid; 
+    grid-template-columns: 100px 200px;
+    margin-right: 65%; 
+    justify-content: space-around; 
+}
+
+.saludo span{
+    color: white;
+    padding: 1%;
+}
+
+.barra{
+    font-size: large;  
+    font-weight: bolder; 
+    background-color: rgb(140, 255, 218); 
+    color: rgb(3, 135, 159);
+    width: 85%;
+    height: 40px;
+    padding: 0%;
+}
+
+.barra .lista{
+    display: block;
+    list-style: none;
+    margin: 0px auto;
+    text-decoration: none;
+    /*width: 1020px;*/
+}
+
+.barra ul li{
+    float: left;
+    line-height: 40px;
+    border-left: 5px solid rgb(10, 11, 12);
+    color: rgb(3, 135, 159);
+    width: 24.4%;   
+    text-align: center; 
+
+}
+
+.barra ul li a{
+    text-decoration: none;  
+    font-size: 20px;
+}
+
+
+#yo{
+    border-color: rgb(140, 255, 218);
+    border-style: solid;
+    border-image-width: 10px;
+}
+
+.presentacion{
+    display: flex;
+    margin-top: 5%;   
+}
+
+.enunciado{
+    color: white;
+    font-family: Noto Sans Display;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.parrafo{
+    background-color: rgb(3, 135, 159);
+    font-family: Noto Sans Display;
+    color: white;
+    font-weight:lighter;
+    font-display: justify;
+    font-size: 18px;
+    padding: 5%;
+    margin-left: 1%;
+    margin-bottom: 25%;
+    font-display: center;
+}
+
+h2 {
+    background-color: rgb(3, 135, 159);
+    color: white;
+    padding-left: 45%;
+    border-radius: 35%;
+}
+
+.imagenesEstudios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagenesEstudios > figure > p{
+    color: white;}
+
+#talentoTech{
+    margin-top: 25px;
+}
+
+#google{
+    margin-top: 30px;
+}
+
+.descripcionesEstudios2{
+    margin-top: 32px;
+}
+
+.descripcionesEstudios3{
+    margin-top: 52px;
+}
+
+.imagenesEstudios > figure > figcaption {
+    background-color: rgb(140, 255, 218);
+    color: rgb(3, 135, 159);
+    text-align: center;
+    color: white;    
+}
+
+.imagenesAnteriores > figure > figcaption {
+    color: white;
+    float: right;
+    font-weight: normal;
+}
+
+.imagenesAnteriores > figure > .explicacion1, .explicacion2, .explicacion3{
+    padding-top: 80px;
+    width: 75%;
+}
+
+.formulario > label{
+    color: white;
+    font-size: 12px;
+}
